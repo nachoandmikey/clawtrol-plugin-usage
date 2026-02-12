@@ -1,6 +1,6 @@
 {
   "name": "clawtrol-plugin-usage",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Claude Code usage monitoring plugin for Clawtrol dashboards",
   "license": "MIT",
   "author": "nachoandmikey",
@@ -13,7 +13,7 @@
     "README.md"
   ],
   "bin": {
-    "clawtrol-usage-setup": "./bin/setup.mjs"
+    "clawtrol-usage-setup": "bin/setup.mjs"
   },
   "scripts": {
     "build": "tsc -p tsconfig.json",
